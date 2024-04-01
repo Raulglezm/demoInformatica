@@ -1,7 +1,0 @@
-{
-  "/portal-assets/*": {
-    "target": "https://core.kiwixpro.com",
-    "secure": false,
-    "logLevel": "debug"
-  }
-}
