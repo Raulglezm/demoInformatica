@@ -3,23 +3,23 @@
         <div class="col-12 col-sm-6 col-md-4 p-4">
             <div class="">
                 <div class="card-body">
-                    <form>
+                    <form [formGroup]="ContactForm">
                         <div class="form-group">
                             <mdb-form-control class="mb-4">
-                                <input mdbInput type="email" class="form-control"/>
-                                <label mdbLabel class="form-label" for="form1Example1">Email address</label>
+                                <input mdbInput type="email" class="form-control" formControlName="Email"/>
+                                <label mdbLabel class="form-label" for="email">Email address</label>
                             </mdb-form-control>
                         </div>
                         <div class="form-group">
                             <mdb-form-control class="mb-4">
-                                <input mdbInput type="text" class="form-control" />
-                                <label mdbLabel class="form-label" for="first-name">First Name</label>
+                                <input mdbInput type="text" class="form-control" formControlName="firstName"/>
+                                <label mdbLabel class="form-label" for="firstName">First Name</label>
                             </mdb-form-control>
                         </div>
                         <div class="form-group">
                             <mdb-form-control class="mb-4">
-                                <input mdbInput type="text" class="form-control"/>
-                                <label mdbLabel class="form-label" for="last-name">Last Name</label>
+                                <input mdbInput type="text" class="form-control" formControlName="lastName"/>
+                                <label mdbLabel class="form-label" for="lastName">Last Name</label>
                             </mdb-form-control>
                         </div>
                     </form>
