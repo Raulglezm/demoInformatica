@@ -7,6 +7,7 @@
     ]
   },
   "compilerOptions": {
+    "resolveJsonModule": true,
     "baseUrl": "projects/",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -24,7 +25,6 @@
     "strictNullChecks": false,
     "target": "es2022",
     "module": "es2022",
-    "resolveJsonModule": true,
     "lib": [
       "es2022",
       "dom"

@@ -1,0 +1,48 @@
+.app-catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card_container {
+        padding: 10px;
+        position: relative; /* Asegurarse de que la tarjeta contenedora sea relativa */
+        .card {
+            width: 100%;
+            height: 100%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            padding: 10px;
+            position: relative; /* Asegurarse de que la tarjeta sea relativa */
+
+            .bg-image {
+                position: relative;
+                overflow: hidden;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+            .card-body {
+                padding: 15px;
+            }
+
+            .card-title {
+                font-size: 1.2em;
+                margin-bottom: 5px;
+            }
+
+            .card-text {
+                font-size: 1em;
+                margin-bottom: 10px;
+            }
+
+            .btn {
+                margin-bottom: auto;
+            }
+        }
+    }
+}
