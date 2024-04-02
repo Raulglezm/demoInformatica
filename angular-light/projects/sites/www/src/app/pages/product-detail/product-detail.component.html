@@ -1,0 +1,28 @@
+<div>
+    <div class="container-fluid pt-md-3 body">
+        <div class="container">
+            <div class="card d-flex flex-row" >
+                <div class="card-body">
+                    <div class="row">
+                        <div class="l-col col-12 col-md-6 d-flex justify-content-center col-md-6">
+                            <div>
+                                <img src="{{ product.urlImagen }}" alt="Image">
+                            </div>
+                        </div>
+                    <!-- Rigth Column -->
+                        <div class="r-col col-12 col-md-6 pt-2">
+                            <h1 class="text-center">{{ product.nombre }}</h1>
+                            <div class="text">
+                                <div>{{ product.descripcion }}</div>
+                                <button *ngIf="product.precioRebajado; else realprice" type="button" class="btn btn-dauteno">Comprar por {{ product.precio }} €</button>
+                                <ng-template #realprice>
+                                    <button type="button" class="btn btn-dauteno">Comprar por {{ product.precio }} €</button>
+                                </ng-template>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

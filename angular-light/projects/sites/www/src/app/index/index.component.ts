@@ -1,19 +1,7 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { Controller, ControllerProvider } from '@sdk-ts/controller';
 import { products } from '../../assets/db/products';
-
-
-interface Product {
-  id: number;
-  nombre: string;
-  descripcion: string;
-  categorias: string[];
-  etiquetas: string[];
-  precio: number;
-  precioRebajado?: number;
-  urlImagen: string;
-}
-
+import { Product } from '../interfaces/product';
 
 @Component({
   selector: 'app-index',
