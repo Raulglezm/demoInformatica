@@ -1,2 +1,17 @@
 .app-index {
+
+    background-image: url(https://nextibs.com/wp-content/uploads/2021/12/seguridad-informatica-1024x439.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    mdb-carousel {
+
+        mdb-carousel-item {
+            img {
+                height: 75vh;
+            }
+        }
+
+    }
+
 }

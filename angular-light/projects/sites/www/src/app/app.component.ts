@@ -4,7 +4,6 @@ import { Controller, CustomComponent } from '@sdk-ts/controller';
 
 import { I18nAppNavBarMenu } from './navbar.i18n';
 import { AppToolbarComponent } from './toolbar/toolbar.component';
-import * as productsData from '../assets/db/products.json';
 
 
 @Component({
@@ -13,8 +12,6 @@ import * as productsData from '../assets/db/products.json';
 })
 export class AppComponent extends AbstractAppComponent {
   title = 'template.com';
-
-  products = productsData;
 
   public override kiwiInit(controller: Controller): void {
     controller.dedicatedMenu.push({

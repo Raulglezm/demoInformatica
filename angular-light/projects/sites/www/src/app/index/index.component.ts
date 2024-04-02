@@ -1,5 +1,18 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { Controller, ControllerProvider } from '@sdk-ts/controller';
+import { products } from '../../assets/db/products';
+
+
+interface Product {
+  id: number;
+  nombre: string;
+  descripcion: string;
+  categorias: string[];
+  etiquetas: string[];
+  precio: number;
+  precioRebajado?: number;
+  urlImagen: string;
+}
 
 
 @Component({
@@ -12,8 +25,12 @@ export class AppIndexComponent implements OnInit {
 
   public controller: Controller;
 
+  public products: Product[];
+
   constructor(private changeDetectorRef: ChangeDetectorRef) {
     this.controller = ControllerProvider.instance;
+    this.products = products;
+    console.log(this.products)
   }
 
   ngOnInit(): void {
@@ -30,3 +47,6 @@ export class AppIndexComponent implements OnInit {
   }
 
 }
+
+
+
