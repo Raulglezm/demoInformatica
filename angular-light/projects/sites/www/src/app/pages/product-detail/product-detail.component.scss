@@ -1,27 +1,79 @@
-.container {
-    height: 100em;
+.item-details{
+    margin-top: 10em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 4em;
+    background-color: #8bbbfacb;
+    padding: 5em;
 }
 
-.container-fluid {
-    .container {
-        padding: 32px 0;
+img#current {
+    height: 15em;
+    padding: 0.01em;
+}
 
-        .card {
-            .card-body {
-                .row {
-                    .l-col {
-                        img {
-                            border-radius: 0.7em;
-                            height: 33.333%; /* Ajuste la altura de la imagen según sea necesario */
-                            margin-right: 20px; /* Agregue margen derecho para separar la imagen del texto */
-                        }
-                    }
-                    .text {
-                        padding: 3em;
-                        text-align: center;
-                    }
-                }
-            }
-        }
+.btn-info{
+    background-color: rgb(73, 147, 243)
+}
+
+@media (min-width: 360px) {
+    img#current {
+        height: 6.8em;
+        padding: 0.1em;
     }
+    .item-details{
+        margin-top: 4em;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 4em;
+        background-color: #8bbbfacb;
+        padding: 5em;
+    }
+}
+
+@media (min-width: 576px) { 
+    img#current {
+        height: 12em;
+        padding: 0.2em;
+    }
+    .item-details{
+        margin-top: 4em;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 4em;
+        background-color: #8bbbfacb;
+        padding: 5em;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    img#current {
+        height: 20em;
+        padding: 2em;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  
+    img#current {
+        height: 16em;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  
+    img#current {
+        height: 20em;
+    }
+
+    .item-details{
+        margin-top: 6em;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 6em;
+        background-color: #8bbbfacb;
+        padding: 5em;
+    }
+
 }

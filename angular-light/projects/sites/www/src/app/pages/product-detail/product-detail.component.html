@@ -1,23 +1,37 @@
-<div>
-    <div class="container-fluid pt-md-3 body">
-        <div class="container">
-            <div class="card d-flex">
-                <div class="card-body">
-                    <h1 class="text-center mb-5">{{ product.nombre }}</h1>
-
-                    <div class="row d-flex justify-content-around">
-                        <div class="l-col col-12 col-sm-12 col-md-6 d-flex row flex-row">
-                            <div class="col-12 col-sm-4 col-md-6">
-                                <img src="{{ product.urlImagen }}" alt="{{ product.nombre }}">
-                            </div>
-                            <div class="text col-12 col-sm-8 col-md-6 mr-5">
-                                <div>{{ product.descripcion }}</div>
-                                <button type="button" class="btn btn-info">Comprar por {{ getPrice() }} €</button>
-                            </div>
-                        </div>
-                    </div>
+<section class="item-details">
+    <div class="container-fluid">
+        <div class="row align-items-center mb-2">
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="mb-2">
+                    <img src="{{ product.urlImagen }}" id="current" alt="#">
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6">
+                <h2>{{ product.nombre }}</h2>
+                <h3 class="mb-3 mt-2">{{ product.precio }} €</h3>
+                <p class="mb-1">Categorias: {{ product.categorias }}</p>
+                <p class="mb-3">Etiquetas: {{ product.etiquetas }}</p>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <button class="btn btn-info">Add to Cart</button>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <div class="row align-items-center">
+        <div class="col-lg-6 col-12">
+            <h4 class="mb-3 mt-2">Details</h4>
+            <p>
+                {{ product.descripcion }}
+            </p>
+        </div>
+        <div class="col-lg-6 col-12" >
+            <!-- Esta seccion solo esta en la v2 -->
+            <div class="mt-2 mb-4">
+                <h4 class="mt-2 mb-1">Shipping Options:</h4>
+                <ul class="mt-2 mb-1">
+                    <li><span>Unishop Global Export:</span> 3 - 4 days, 25.00 €</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
