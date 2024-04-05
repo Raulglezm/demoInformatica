@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { products } from 'sites/www/src/assets/db/products';
 import { Product } from '../../interfaces/product';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-detail',
@@ -12,7 +12,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ProductDetailComponent implements OnInit {
   
-  constructor(private router:ActivatedRoute) {}
+  constructor(private router:ActivatedRoute, private redirecter: Router) {}
   
   product: Product | undefined
 
@@ -21,6 +21,9 @@ export class ProductDetailComponent implements OnInit {
     let productId = Number(this.router.snapshot.paramMap.get("productId"))
     console.log(productId)
     this.product = products.find((product)=> productId === product.id)
+    if (this.product === undefined) {
+      this.redirecter.navigate(["/catalog"])
+    }
     console.log(this.product)
   }
 

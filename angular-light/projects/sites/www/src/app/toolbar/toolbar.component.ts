@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
 import { AbstractI18nFramework } from '@i18n/framework.i18n';
 import { Controller, ControllerProvider, I18nSubscriber } from '@sdk-ts/controller';
+import { MdbFormsModule } from 'mdb-angular-ui-kit/forms';
 
 @Component({
   selector: 'app-toolbar',
