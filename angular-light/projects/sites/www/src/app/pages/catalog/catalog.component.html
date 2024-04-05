@@ -9,7 +9,7 @@
           <a [routerLink]="['/catalog', product.id]">
             <div class="card">
               <div class="bg-image hover-overlay" mdbRipple rippleColor="light">
-                <img [src]="product.urlImagen" class="img-fluid" [alt]="product.nombre" />
+                <img src="{{ product.urlImagen }}" class="img-fluid" [alt]="product.nombre" />
                 <a href="#!" class="btn btn-overlay"> <i class="fas fa-shopping-cart"></i> Shop</a>
               </div>
               <div class="card-body">

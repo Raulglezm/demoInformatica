@@ -44,6 +44,19 @@
                 <a class="hide-xs hide-sm clickable" *ngIf="!controller.userId" (click)="privateArea()">{{controller.dedicatedI18nNavbarMenu.labels.LOGIN}}</a>
               </li>-->
 
+              <li class="connected">
+                <div class="d-flex alight-items-center">
+                  <div class="user clickable">
+                    <img src="../../assets/icons/shopping-cart-icon.png" alt="" height="21" width="21">
+                  </div>
+                  <div class="input-group">
+                      <input mdbInput type="search" id="form1" class="form-control" placeholder="Search" width="10"/>
+                    <button type="button" class="btn btn-info">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </li>
               <li class="flags d-flex align-items-center">
                 <button class="p-0 btn btn-sm shadow-0" (click)="controller.toggleLanguageSelector()">
                   <img [src]="'/portal-assets/images/flags/flag-icon-' + controller.langu + '.svg'" alt="Flag" height="28" width="28">

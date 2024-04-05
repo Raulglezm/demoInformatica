@@ -5,7 +5,7 @@ import { products } from '../../assets/db/products';
 @Injectable({
   providedIn: 'root'
 })
-export class GetproductsService {
+export class ProductsService {
 
   constructor() { }
 
