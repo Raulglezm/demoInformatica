@@ -1,0 +1,27 @@
+.container {
+    height: 100em;
+}
+
+.container-fluid {
+    .container {
+        padding: 32px 0;
+
+        .card {
+            .card-body {
+                .row {
+                    .l-col {
+                        img {
+                            border-radius: 0.7em;
+                            height: 33.333%; /* Ajuste la altura de la imagen según sea necesario */
+                            margin-right: 20px; /* Agregue margen derecho para separar la imagen del texto */
+                        }
+                    }
+                    .text {
+                        padding: 3em;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

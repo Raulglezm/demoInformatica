@@ -30,7 +30,7 @@ export const products = [
       "RGB"
     ],
     "precio": 129.99,
-    "urlImagen": "https://example.com/teclado.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 3,
@@ -46,7 +46,7 @@ export const products = [
       "Full HD"
     ],
     "precio": 249.99,
-    "urlImagen": "https://example.com/monitor.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 4,
@@ -62,7 +62,7 @@ export const products = [
       "Sony"
     ],
     "precio": 349.99,
-    "urlImagen": "https://example.com/auriculares.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 5,
@@ -78,7 +78,7 @@ export const products = [
       "1TB"
     ],
     "precio": 179.99,
-    "urlImagen": "https://example.com/ssd.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 6,
@@ -94,7 +94,7 @@ export const products = [
       "Sony"
     ],
     "precio": 1999.99,
-    "urlImagen": "https://example.com/camara.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 7,
@@ -110,7 +110,7 @@ export const products = [
       "HP"
     ],
     "precio": 349.99,
-    "urlImagen": "https://example.com/impresora.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 8,
@@ -126,7 +126,7 @@ export const products = [
       "Corsair"
     ],
     "precio": 299.99,
-    "urlImagen": "https://example.com/silla.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 9,
@@ -142,7 +142,7 @@ export const products = [
       "Smartphone"
     ],
     "precio": 999.99,
-    "urlImagen": "https://example.com/iphone.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 10,
@@ -158,7 +158,7 @@ export const products = [
       "Wi-Fi 6"
     ],
     "precio": 249.99,
-    "urlImagen": "https://example.com/router.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 11,
@@ -174,7 +174,7 @@ export const products = [
       "Blue"
     ],
     "precio": 129.99,
-    "urlImagen": "https://example.com/microfono.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 12,
@@ -190,7 +190,7 @@ export const products = [
       "Wacom"
     ],
     "precio": 79.99,
-    "urlImagen": "https://example.com/tableta.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 13,
@@ -206,7 +206,7 @@ export const products = [
       "THX"
     ],
     "precio": 119.99,
-    "urlImagen": "https://example.com/altavoces.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 14,
@@ -222,7 +222,7 @@ export const products = [
       "Seagate"
     ],
     "precio": 99.99,
-    "urlImagen": "https://example.com/disco-duro.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 15,
@@ -238,7 +238,7 @@ export const products = [
       "Compacta"
     ],
     "precio": 399.99,
-    "urlImagen": "https://example.com/barra-de-sonido.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 16,
@@ -254,7 +254,7 @@ export const products = [
       "GPS"
     ],
     "precio": 299.99,
-    "urlImagen": "https://example.com/smartwatch.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 17,
@@ -270,7 +270,7 @@ export const products = [
       "Philips Hue"
     ],
     "precio": 149.99,
-    "urlImagen": "https://example.com/iluminacion.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 18,
@@ -286,7 +286,7 @@ export const products = [
       "Roomba"
     ],
     "precio": 499.99,
-    "urlImagen": "https://example.com/roomba.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 19,
@@ -302,7 +302,7 @@ export const products = [
       "Automática"
     ],
     "precio": 179.99,
-    "urlImagen": "https://example.com/cafetera.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   },
   {
     "id": 20,
@@ -318,6 +318,6 @@ export const products = [
       "20100mAh"
     ],
     "precio": 49.99,
-    "urlImagen": "https://example.com/bateria-externa.jpg"
+    "urlImagen": "https://innovainformatica.com/images-amigables/1012/raton-gaming-trust-led-wireless-negro-24750-grande.jpg"
   }
 ]

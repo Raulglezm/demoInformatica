@@ -23,4 +23,9 @@ export class ProductDetailComponent implements OnInit {
     this.product = products.find((product)=> productId === product.id)
     console.log(this.product)
   }
+
+  getPrice() {
+    let price = this.product.precioRebajado ? this.product.precioRebajado: this.product.precio
+    return price
+  }
 }
