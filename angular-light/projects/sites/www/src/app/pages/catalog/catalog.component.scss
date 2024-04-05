@@ -1,11 +1,10 @@
 .app-catalog {
     display: flex;
-
-  
     .card_container {
       padding: 10px;
       position: relative;
       .card {
+        background-color: #8bbbfacb;
         width: 100%;
         height: 100%;
         border: 1px solid #ccc;

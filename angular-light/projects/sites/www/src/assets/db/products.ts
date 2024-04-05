@@ -30,7 +30,7 @@ export const products = [
       "RGB"
     ],
     "precio": 129.99,
-    "urlImagen": "https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-keyboard/pro-x-keyboard-gallery-2.png?v=1"
+    "urlImagen": "https://img.pccomponentes.com/articles/1077/10772985/1393-logitech-g-pro-x-tkl-lightspeed-teclado-inalambrico-gaming-negro-rgb-lightsync-gx-brown.jpg"
   },
   {
     "id": 3,
@@ -158,7 +158,7 @@ export const products = [
       "Wi-Fi 6"
     ],
     "precio": 249.99,
-    "urlImagen": "https://www.asus.com/media/global/products/pezdd5ujcut73gz5/P_setting_xxx_0_90_end_500.png"
+    "urlImagen": "https://www.trippodo.com/741115-medium_default/asus-rt-ax86u-pro-router-inalambrico-gigabit-ether.jpg"
   },
   {
     "id": 11,
@@ -206,7 +206,7 @@ export const products = [
       "THX"
     ],
     "precio": 119.99,
-    "urlImagen": "https://resource.logitech.com/content/dam/logitech/en/products/speakers/computer-speakers/z623/gallery/z623-gallery-1.png"
+    "urlImagen": "https://syswer.com/4938-thickbox_default/altavoces-logitech-z623-980-000403.jpg"
   },
   {
     "id": 14,
@@ -238,7 +238,7 @@ export const products = [
       "Compacta"
     ],
     "precio": 399.99,
-    "urlImagen": "https://media.sonos.com/images/znqtjj88/production/001d58f3a13adfb954a911f4db349486098dcd93-2000x2000.png?w=3840&q=100&fit=clip&auto=format"
+    "urlImagen": "https://www.radiocolon.com/large/Sonos-Ray-%2B-2-Sonos-One-SL-B-stock-i31615.jpg"
   },
   {
     "id": 16,
