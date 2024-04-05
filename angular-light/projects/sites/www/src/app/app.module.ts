@@ -32,7 +32,11 @@ const SHARED_CUSTOM_ROUTES_PROVIDER = {
     {
       path: 'catalog/:productId',
       loadChildren: () => import('./pages/product-detail/product-detail.module').then(m => m.ProductDetailModule)
-    }
+    },
+    {
+      path: 'catalog',
+      loadChildren: () => import('./pages/catalog/catalog.module').then(m => m.AppCatalogModule)
+    },
   ];
   }
 };

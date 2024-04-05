@@ -5,7 +5,6 @@ import { Controller, CustomComponent } from '@sdk-ts/controller';
 import { I18nAppNavBarMenu } from './navbar.i18n';
 import { AppToolbarComponent } from './toolbar/toolbar.component';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: '../../../../framework/app/app.component.html'
@@ -23,6 +22,11 @@ export class AppComponent extends AbstractAppComponent {
       name: 'about',
       label: 'About',
       route: '/about'
+    });
+    controller.dedicatedMenu.push({
+      name: 'catalog',
+      label: 'Catalog',
+      route: '/catalog'
     });
 
     controller.dedicatedI18nNavbarMenu = new I18nAppNavBarMenu();

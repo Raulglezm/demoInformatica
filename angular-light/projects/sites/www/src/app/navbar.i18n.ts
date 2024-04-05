@@ -17,6 +17,7 @@ export class I18nAppNavBarMenu extends I18n<{
   protected get en() {
     return {
       HOME: 'Home',
+      CATALOG: 'Catalog',
       ABOUT: 'About',
       SERVICES: 'Services',
       CONTACT_US: 'Contact us',
@@ -28,6 +29,7 @@ export class I18nAppNavBarMenu extends I18n<{
   protected override get es() {
     return {
       HOME: 'Inicio',
+      CATALOG: 'Catálogo',
       ABOUT: 'Acerca de',
       SERVICES: 'Servicios',
       CONTACT_US: 'Contáctenos',
@@ -39,6 +41,7 @@ export class I18nAppNavBarMenu extends I18n<{
   protected override get fr() {
     return {
       HOME: 'Accueil',
+      CATALOG: 'Catalog',
       ABOUT: 'À propos',
       SERVICES: 'Prestations',
       CONTACT_US: 'Nous contacter',
@@ -50,6 +53,7 @@ export class I18nAppNavBarMenu extends I18n<{
   protected override get de() {
     return {
       HOME: 'Heim',
+      CATALOG: 'Catalog',
       ABOUT: 'Um',
       SERVICES: 'Dienstleistungen',
       CONTACT_US: 'Kontaktiere uns',
@@ -61,6 +65,7 @@ export class I18nAppNavBarMenu extends I18n<{
   protected override get it() {
     return {
       HOME: 'Casa',
+      CATALOG: 'Catalog',
       ABOUT: 'Informazioni',
       SERVICES: 'Servizi',
       CONTACT_US: 'Contattaci',
