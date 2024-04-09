@@ -12,7 +12,6 @@ import { AppToolbarComponent } from './toolbar/toolbar.component';
 })
 export class AppComponent extends AbstractAppComponent {
   title = 'template.com';
-
   public override kiwiInit(controller: Controller): void {
     controller.dedicatedMenu.push({
       name: 'home',

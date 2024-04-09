@@ -27,6 +27,7 @@ export interface BlogSettings {
 export interface SharedEnvironment {
   log(handler: () => void): void;
   production: boolean;
+  quality?: boolean;
   type: WebsiteType;
   enableERP?: boolean;
   blog?: BlogSettings;

@@ -8,6 +8,7 @@ import { SharedEnvironment, WebsiteType } from '@sdk-ts/environment';
 export const environment: SharedEnvironment = {
   log(handler: () => void): void { handler() },
   production: false,
+  quality: true,
   type: WebsiteType.Dedicated,
   enableERP: true,
   blog: {},
