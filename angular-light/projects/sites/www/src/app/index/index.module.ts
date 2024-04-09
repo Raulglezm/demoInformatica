@@ -5,6 +5,7 @@ import { AppIndexRoutingModule } from './index-routing.module';
 import { AppIndexComponent } from './index.component';
 
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
+import { FooterComponent } from '../footer/footer.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
   imports: [
     CommonModule,
     AppIndexRoutingModule,
-    MdbCarouselModule
+    MdbCarouselModule,
+    FooterComponent
   ],
   exports: [
   ]
