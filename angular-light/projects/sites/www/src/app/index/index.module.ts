@@ -6,6 +6,7 @@ import { AppIndexComponent } from './index.component';
 
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { FooterComponent } from '../footer/footer.component';
+import { ContactComponent } from '../pages/contact/contact.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FooterComponent } from '../footer/footer.component';
     CommonModule,
     AppIndexRoutingModule,
     MdbCarouselModule,
-    FooterComponent
+    FooterComponent,
+    ContactComponent
   ],
   exports: [
   ]

@@ -7,6 +7,7 @@ import { SHARED_CUSTOM_ROUTES, SHARED_DEFAULT_ROUTES, SHARED_ENVIRONMENT } from 
 import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
 import { AppToolbarComponent } from './toolbar/toolbar.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 const SHARED_ENVIRONMENT_PROVIDER = {
   provide: SHARED_ENVIRONMENT,
@@ -53,6 +54,7 @@ const SHARED_DEFAULT_ROUTES_PROVIDER = {
   ],
   imports: [
     CommonModule,
+    ContactComponent,
     ...kiwiImports(),
     KiwiPageModule,
   ],
