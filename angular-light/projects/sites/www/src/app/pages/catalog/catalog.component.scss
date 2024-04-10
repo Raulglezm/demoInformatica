@@ -4,7 +4,6 @@
       padding: 10px;
       position: relative;
       .card {
-        background-color: #8bbbfacb;
         width: 100%;
         height: 100%;
         border: 1px solid #ccc;
@@ -18,9 +17,11 @@
           overflow: hidden;
   
           img {
-            width: 100%;
-            height: auto;
+            width: 300px;
+            height: 300px;
             display: block;
+            // background-color: rgba($color: grey, $alpha: 0.1);
+            object-fit: contain;
           }
   
           .btn-overlay {
@@ -28,9 +29,9 @@
             bottom: 0;
             left: 0;
             width: 100%;
-            background-color: rgba(0, 0, 0, 0.5); /* Color de fondo del botón */
-            color: white; /* Color del texto del botón */
-            padding: 10px; /* Espaciado interno del botón */
+            background-color:rgb(7, 108, 224);
+            color: white; 
+            padding: 10px;
             transform: translateY(100%);
             transition: transform 0.3s ease;
           }
@@ -54,6 +55,11 @@
           margin-bottom: 10px;
         }
   
+        .money{
+          font-weight: 1000;
+          color: rgb(7, 108, 224);
+        }
+
         .btn {
           margin-bottom: auto;
         }

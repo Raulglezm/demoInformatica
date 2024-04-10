@@ -11,8 +11,8 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title">{{ product.nombre }}</h5>
-                <p class="card-text">{{ product.descripcion }}</p>
-                <p class="card-text">Precio: {{ product.precio | currency }}</p>
+                <!--<p class="card-text">{{ product.descripcion }}</p>-->
+                <p class="card-text money">{{ product.precio | currency }}</p>
               </div>
             </div>
           </a>
@@ -21,4 +21,5 @@
     </div>
   </div>
 </div>
+<app-contact></app-contact>
 <app-footer></app-footer>
